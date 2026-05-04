@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { useForm } from 'react-hook-form'
-import { supabase } from '../supabaseClient'
-import './SignUpForm.css'
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { supabase } from '../supabaseClient';
+import './SignupForm.css';
 
 export default function SignUpForm({ onSuccess, onBack }) {
   const [isSubmitting, setIsSubmitting] = useState(false)

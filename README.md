@@ -12,7 +12,7 @@ I used Supabase so submissions are immediately stored and are usable.
 I used straightfroward CSS stying and tried to maintain a similar color scheme/vibe as HXP's brand.
 
 
-# If I Had More Time
+## If I Had More Time
 
 I would have replaced some of the plain background with actual pictues of Budapest. 
 I would have also changed the URL so it is cleaner. 

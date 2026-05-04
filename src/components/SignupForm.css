@@ -1,0 +1,40 @@
+.sf-wrap { font-family: 'DM Sans', sans-serif; background: #FFFFFF; min-height: 100vh; }
+
+.sf-header { background: #C0392B; border-bottom: 1px solid #EDE8DF; padding: 16px 24px; }
+.sf-header-title { font-family: 'Fraunces', serif; color: #FAF7F2; font-size: 16px; font-weight: 600; }
+
+.sf-body { max-width: 560px; margin: 0 auto; padding: 32px 24px 48px; }
+
+.sf-intro { margin-bottom: 28px; }
+.sf-intro h2 { font-family: 'Fraunces', serif; font-size: 28px; color: #1A1A1A; margin-bottom: 6px; }
+.sf-intro p { font-size: 14px; color: #6B6057; line-height: 1.6; }
+.sf-required { color: #C0392B; }
+.sf-optional { color: #6B6057; font-size: 12px; font-weight: 400; }
+
+.sf-group { margin-bottom: 20px; }
+.sf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.sf-label { display: block; font-size: 13px; font-weight: 500; color: #1A1A1A; margin-bottom: 6px; }
+
+.sf-section-label { font-size: 11px; letter-spacing: 0.1em; font-weight: 500; color: #C0392B; margin-bottom: 12px; margin-top: 8px; }
+
+.sf-input { width: 100%; box-sizing: border-box; padding: 10px 14px; border: 1px solid #EDE8DF; border-radius: 6px; font-family: 'DM Sans', sans-serif; font-size: 14px; color: #1A1A1A; background: #FFFFFF; outline: none; transition: border-color 0.15s; }
+.sf-input:focus { border-color: #C0392B; box-shadow: 0 0 0 3px rgba(192,57,43,0.08); }
+.sf-input--error { border-color: #C0392B; }
+.sf-textarea { resize: vertical; min-height: 120px; }
+
+.sf-error { font-size: 12px; color: #C0392B; margin-top: 4px; }
+.sf-submit-error { background: #FDF2F0; border: 1px solid #F4BFBC; border-radius: 6px; padding: 12px 16px; font-size: 14px; color: #C0392B; margin-bottom: 16px; }
+
+.sf-submit { width: 100%; background: #C0392B; color: #FFFFFF; border: none; padding: 15px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 500; border-radius: 6px; cursor: pointer; margin-top: 8px; transition: background 0.15s; }
+.sf-submit:hover { background: #A93226; }
+.sf-submit:disabled { background: #E8A9A3; cursor: not-allowed; }
+
+.sf-fine-print { font-size: 12px; color: #6B6057; text-align: center; margin-top: 16px; line-height: 1.5; }
+.sf-back-link { background: none; border: none; color: #C0392B; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; cursor: pointer; padding: 12px 24px; display: block; }
+.sf-back-link:hover { text-decoration: underline; } 
+
+
+@media (max-width: 480px) {
+  .sf-row { grid-template-columns: 1fr; }
+}
